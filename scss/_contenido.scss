@@ -1,0 +1,40 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    height: 80px;
+    margin: 20px;
+    background-color: $color1; /*Fondo oscuro de toda la pagina*/
+    color: $color2; 
+  }
+  
+  header{
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: $color2; 
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  main {
+    margin: 20px;
+    padding: 10px;
+    background-color: $color4; 
+    text-align: center;
+  }
+  
+  main p {
+    color: $color5; /* Texto gris claro */
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  footer {
+    margin: 20px;
+    padding: 10px;
+    background-color: $color1; /* Fondo gris oscuro */
+    text-align: center;
+    color: $color5; /* Texto gris medio */
+  }

@@ -1,0 +1,27 @@
+main {
+    text-align: center;
+    background-color: $color1;
+  }
+  
+  h2 {
+    color: $color3; /* Color del subtitulo "Nuestro Menu"*/
+  }
+  
+  .menu{
+    margin: 10px;
+    padding: 10px;
+    background-color: $color1; /* Fondo oscuro de los productos*/
+    border-radius: 20px;
+  }
+  
+  .menu h3 {
+    color: $color6; /* Color naranja oscuro */
+  }
+  
+  .menu p {
+    color: $color5; /* Texto gris claro */
+  }
+  
+  .menu img {
+    width: 50%;
+  }
